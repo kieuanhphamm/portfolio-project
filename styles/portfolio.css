@@ -26,7 +26,44 @@ h2 {
 }
 
 img {
-  aspect-ratio: 1/0.85;
+  aspect-ratio: 1/0.8;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 90px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+.logo-kieuanhpham {
+  max-width: 170px;
+  aspect-ratio: 1/0.5;
+}
+
+.logo-kp {
+  max-width: 60px;
 }
 
 .hero {
@@ -109,6 +146,14 @@ img {
 
   h2 {
     font-size: 44px;
+  }
+
+  nav li {
+    line-height: 45px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 
   .hero {
