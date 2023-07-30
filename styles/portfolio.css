@@ -143,6 +143,11 @@ nav li.active a {
   font-size: 14px;
 }
 
+.code-source {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
 footer {
   margin: 60px 0;
 }
